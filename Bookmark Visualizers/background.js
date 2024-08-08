@@ -35,6 +35,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
     return true; // Will respond asynchronously
   }
 });
+<<<<<<< HEAD
 //installion of extension
 chrome.runtime.onInstalled.addListener(() => {
   console.log("Extension installed");
@@ -45,3 +46,5 @@ chrome.runtime.onInstalled.addListener(() => {
     });
   });
 });
+=======
+>>>>>>> 1697cb79b9354499f359b54b7b0bdf9362800335
